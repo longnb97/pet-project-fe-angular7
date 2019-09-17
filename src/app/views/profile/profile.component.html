@@ -1,0 +1,10 @@
+<p>
+  profile works!
+</p>
+<form (ngSubmit)="postData()" enctype="multipart/form-data">
+  <input id="cin" name="cin" type="file" (change)="fileChangeEvent($event)" multiple />
+  <input type="submit" value="gửi">
+</form>
+
+<!-- load image example -->
+<!-- <img [src]="myImage" />  -->
